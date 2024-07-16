@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: #a1c97e;
+    width: min(90%, 500px);
+    height:17vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 1em;
+}
+
+input{
+    border: 1px, solid blue;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    background-color: rgb(227, 239, 240);
+}
+
+.background {
+    background: url(https://img.freepik.com/fotos-premium/hermoso-papel-tapiz-abstracto-alta-calidad-4k_976268-13.jpg?size=626&ext=jpg) no-repeat center;
+    height: 100vh;
+    width: 170vh;
+    position: absolute;
+    z-index: -1;
+    filter: blur(8px);
+}
